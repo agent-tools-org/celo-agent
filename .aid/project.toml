@@ -1,0 +1,5 @@
+[project]
+id = "celo-agent"
+profile = "standard"
+budget = "$20/day"
+verify = "npm test"

@@ -1,0 +1,21 @@
+{
+  "name": "celo-payment-agent",
+  "version": "1.0.0",
+  "description": "AI-powered payment agent on Celo — sub-cent fees for frequent automated payments",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["celo", "agent", "payments", "stablecoin", "viem"],
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.0.0"
+  }
+}
