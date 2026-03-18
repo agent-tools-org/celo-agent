@@ -6,16 +6,24 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "test": "vitest run"
   },
-  "keywords": ["celo", "agent", "payments", "stablecoin", "viem"],
+  "keywords": [
+    "celo",
+    "agent",
+    "payments",
+    "stablecoin",
+    "viem"
+  ],
   "license": "MIT",
   "dependencies": {
     "viem": "^2.21.0"
   },
   "devDependencies": {
-    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0",
     "ts-node": "^10.9.2",
-    "@types/node": "^22.0.0"
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.0"
   }
 }
