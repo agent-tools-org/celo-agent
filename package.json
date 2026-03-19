@@ -8,6 +8,7 @@
     "start": "node dist/index.js",
     "dev": "ts-node src/index.ts",
     "demo": "ts-node --compiler-options '{\"module\":\"commonjs\",\"target\":\"ES2022\",\"esModuleInterop\":true,\"skipLibCheck\":true}' scripts/demo.ts",
+    "compile": "ts-node src/compile.ts",
     "test": "vitest run"
   },
   "keywords": [
@@ -19,6 +20,7 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "solc": "^0.8.24",
     "viem": "^2.21.0"
   },
   "devDependencies": {
